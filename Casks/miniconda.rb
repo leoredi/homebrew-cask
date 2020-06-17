@@ -24,4 +24,7 @@ cask 'miniconda' do
                '~/.conda',
                '~/.continuum',
              ]
+  
+  caveats "source /opt/miniconda3/etc/profile.d/conda.sh"
+  
 end
